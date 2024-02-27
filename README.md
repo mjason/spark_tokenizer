@@ -14,5 +14,12 @@
 - 没有官方的 docker 镜像需要自己编译
 - python 要运行的话，参考 dockerfile 即可
 
+在中国使用，需要用以下环境变量展示备案信息
+```shell
+export SHOW_ICP_INFO=true
+export COMPANY_NAME='实际公司名称'
+export ICP_NUMBER='实际备案号'
+```
+
 ## 开源协议
 Apache License 2.0
