@@ -4,6 +4,7 @@ from lib.tokenizer import Tokenizer
 tokenizer = Tokenizer()
 colors = ['#FFADAD', '#FFD6A5', '#FDFFB6', '#CAFFBF']
 
+st.set_page_config(page_title="星火 Tokenizer 工具")
 st.title("星火 Tokenizer 工具")
 
 text = st.text_area("Text to tokenize", "Type your text here", height=200)
